@@ -9,7 +9,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torchvision.transforms as transforms
 
-from src.models.modnet import MODNet
+from src import MODNet
 
 
 if __name__ == '__main__':

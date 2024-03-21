@@ -87,7 +87,7 @@ There are some resources about MODNet from the community.
 
 
 ## Code
-We provide the [code](src/trainer.py) of MODNet training iteration, including:
+We provide the [code](src/modnet/trainer.py) of MODNet training iteration, including:
 - **Supervised Training**: Train MODNet on a labeled matting dataset
 - **SOC Adaptation**: Adapt a trained MODNet to an unlabeled dataset
 

@@ -20,8 +20,7 @@ import torch
 import torch.nn as nn
 from torch.autograd import Variable
 
-from . import modnet_onnx
-
+from modnet.models import modnet_onnx
 
 if __name__ == '__main__':
     # define cmd arguments

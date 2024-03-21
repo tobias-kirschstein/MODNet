@@ -16,10 +16,8 @@ import argparse
 
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 
-from . import modnet_torchscript
-
+from modnet.models import modnet_torchscript
 
 if __name__ == '__main__':
     # define cmd arguments

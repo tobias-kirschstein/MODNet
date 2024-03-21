@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
 
-from src.models.modnet import MODNet
+from src import MODNet
 
 
 torch_transforms = transforms.Compose(
